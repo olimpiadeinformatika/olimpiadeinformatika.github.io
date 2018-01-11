@@ -1,0 +1,72 @@
+title: Test
+---
+pub_date: 2017-12-28
+---
+author: Mamat Rahmat
+---
+categories: test
+---
+body:
+
+### Testing
+
+This is *italic*. This is **bold**. This is ~~striked~~.
+
+This is paragraph.
+This is in the same line.  
+This is another line in the same paragraph.
+
+This is another paragraph. Just add some text here for no purpose. Lorem ipsum dolor sit amet. Yada yada yada yada.
+
+> Quotes - anonim 
+
+1. Satu
+2. Dua
+3. Tiga
+
+### Test URL
+
+- [Google](https://google.com)
+- [Facebook](https://facebook.com)
+
+### Test Image
+
+[![Image](http://olimpiadeinformatika.com/static/logo.png)](http://olimpiadeinformatika.com)
+
+### Test C++ Code
+
+Inline `"code"`
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main () {
+  cout << "Hello World!" << endl;
+  return 0;
+}
+```
+
+### Test Latex
+
+$$x_{1,2} = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} $$
+
+### Test Table
+
+| Option | Description |
+| ------ | ----------- |
+| data   | path to data files to supply the data that will be passed into templates. |
+| engine | engine to be used for processing templates. Handlebars is the default. |
+| ext    | extension to be used for dest files. |
+
+### Test Inline HTML
+
+<dl>
+  <dt>Definition list</dt>
+  <dd>Is something people use sometimes.</dd>
+
+  <dt>Markdown in HTML</dt>
+  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
+</dl>
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=mPH0SGfQEKE" target="_blank"><img src="http://img.youtube.com/vi/mPH0SGfQEKE/0.jpg" alt="IMAGE Video OSN" width="240" height="180" border="10" /></a>

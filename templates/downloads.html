@@ -1,0 +1,27 @@
+{% extends "layout.html" %}
+{% block title %}{{ this.title }}{% endblock %}
+{% block body %}
+<div class="text-center">
+ 	{% for competition in bag('downloads.list') %}
+		<h3> {{competition.title}} </h3>
+		<table class="table table-bordered table-hover table-sm">
+			<thead class="thead-dark">
+			<tr>
+			{% for header in competition.header %}
+				<th> {{header}} </th>
+			{% endfor %}
+			</tr>
+			</thead>
+			{% for data in competition.data %}
+				<tr>
+				{% for cell in data %}
+					<td>{% if cell.filename %}<a href="{{cell.filename|url}}">{{cell.name}}</a>{% else %}-{% endif %}</td>
+				{% endfor %}
+				</tr>
+			{% endfor %}
+		</table>
+		<br/>
+		<br/>
+	{% endfor %}
+</div>
+{% endblock %}

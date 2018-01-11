@@ -1,0 +1,9 @@
+title: Home
+---
+_template: homepage.html
+---
+body:
+
+## Selamat Datang di Catatan Olimpiade Informatika!
+
+Silahkan kunjungi [blog](/blog), [halaman proyek](/projects) dan [tentang kami](/about).

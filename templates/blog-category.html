@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+{% from "macros/blog.html" import render_category_nav, render_blog_list %}
+{% block title %}Blog Category {{ this.name }}{% endblock %}
+{% block body %}
+	<div class="row">
+		<div class="col-md-8">
+			<h1>Category : {{ this.name }}</h1>
+	  		{{ render_blog_list(this.children) }}
+		</div>
+		<div class="col-md-4">
+			{{ render_category_nav(active=none) }}
+		</div>
+	</div>
+{% endblock %}

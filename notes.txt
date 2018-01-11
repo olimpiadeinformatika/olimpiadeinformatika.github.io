@@ -1,0 +1,45 @@
+- Logika Proposisi
+- Analitika
+	- Analitika Bohong Jujur
+	- Analitika Pola dan Deret
+	- Analitika Persamaan
+	- Analitika Pengurutan
+	- Analitika Pemasangan
+	- Analitika Proses
+	- Analitika Graf
+	- Analitika Multi-Level Thinking
+
+
+- Teori Bilangan
+- Modulo
+- Himpunan
+- Prinsip Sarang Burung
+- Kombinatorika
+- Peluang
+- Graf
+
+
+- Elemen Dasar Pseudopascal
+- Percabangan
+- Perulangan
+- Array
+- Fungsi dan Prosedur
+- String Lanjut
+- Rekursi
+- Kompleksitas Algoritma
+- Algoritma Pengurutan
+- Algoritma Pencarian
+- Algoritma Teori Bilangan dan Modulo
+- Algoritma Kombinatorika
+
+
+- Complete Search
+- Decrease and Conquer
+- Divide and Conquer
+- Greedy
+- Dynamic Programming
+	- DP Banyak Rute
+	- DP Rute Optimal
+	- DP Pengubinan
+	- DP Susunan Objek
+	- DP Permainan

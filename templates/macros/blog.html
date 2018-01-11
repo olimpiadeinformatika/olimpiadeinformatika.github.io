@@ -1,0 +1,40 @@
+{% macro render_blog_post(post, from_index=false) %}
+  <div class="blog-post">
+  {% if from_index %}
+    <div class="card mb-4">
+      <div class="card-body">
+        <a href="{{ post|url }}"><h2 class="card-title">{{ post.title }}</h2></a>
+        <div class="card-text">{{ post.body|excerpt }}</div>
+      </div>
+      <div class="card-footer text-muted">
+        Diposting pada {{ post.pub_date|dateformat('full') }} oleh
+        <a href="#">{{ post.author }}</a>
+      </div>
+    </div>
+  {% else %}
+    <h2>{{ post.title }}</h2>
+    <p class="text-muted">
+        Diposting pada {{ post.pub_date|dateformat('full') }} oleh
+        <a href="#">{{ post.author }}</a>
+    </p>
+    <p class="card-text">{{ post.body }}</p>
+  {% endif %}
+  </div>
+{% endmacro %}
+
+{% macro render_category_nav(active=none) %}
+  <h3> Categories </h3>
+  <ul class="list-group">
+  {% for category in site.query('/blog-categories') %}
+    <li class="list-group-item{% if category._id == active %} active{% endif%}"><a href="{{ category|url }}">{{ category.name }} ({{ category.children.all()|length }})</a></li>
+  {% endfor %}
+  </ul>
+{% endmacro %}
+
+{% macro render_blog_list(blog) %}
+  <ul>
+  {% for blog_post in blog %}
+    <li><a href="{{ blog_post|url }}">[{{blog_post.pub_date|dateformat('medium')}}] {{ blog_post.title }}</a></li>
+  {% endfor %}
+  </ul>
+{% endmacro %}

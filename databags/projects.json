@@ -1,0 +1,34 @@
+{
+	"list": [
+		{
+			"title" : "Data OSN",
+			"description" : "Disini anda akan menemukan arsip data peserta dan medali OSN",
+			"url" : "/data-osn"
+		},
+		{
+			"title" : "Scoreboard",
+			"description" : "Disini anda akan menemukan scoreboard OSN tahun-tahun yang lalu",
+			"url" : "/scoreboard"
+		},
+		{
+			"title" : "Downloads",
+			"description" : "Disini anda akan menemukan arsip soal-soal kompetisi",
+			"url" : "/downloads"
+		},
+		{
+			"title" : "COI Online Judge",
+			"description" : "Ini adalah online judge alternatif yang dikelola oleh kami",
+			"url" : "http://oj.olimpiadeinformatika.com"
+		},
+		{
+			"title" : "COI Chat Group",
+			"description" : "Ini adalah forum berupa chat grup untuk berdiskusi",
+			"url" : "https://coi.zulipchat.com"
+		},
+		{
+			"title" : "COI Youtube Channel",
+			"description" : "Ini adalah channel youtube berisi video-video pembahasan",
+			"url" : "https://www.youtube.com/channel/UCe1X38BE3kIjsoxqv2r8oog"
+		}
+	]
+}
