@@ -90,10 +90,10 @@ False or False = False
 - Artinya, bernilai False jika nilainya sama
 
 ```text
-True and True = True
-True and False = False
-False and True = False
-False and False = True
+True xor True = False
+True xor False = True
+False xor True = True
+False xor False = False
 ```
 
 | p | q | p ⊕ q |
