@@ -1,0 +1,281 @@
+_discoverable: yes
+---
+title: Materi Logika Proposisi
+---
+author: Mamat Rahmat
+---
+pub_date: 2018-01-01
+---
+categories: materi
+---
+body:
+
+Proposisi adalah pernyataan yang mempunyai nilai kebenaran True (benar) atau False (salah).
+
+Contoh Proposisi :
+- Ibukota Provinsi Jawa Barat adalah Bandung. (bernilai True)
+- 7 adalah bilangan genap. (bernilai False)
+- Anto tidak mencuri dan Andi berbohong (bernilai True/False, tetapi tidak keduanya)
+
+Pada artikel ini, terkadang kita akan memakai istilah benar/salah, terkadang juga menggunakan istilah True/False atau T/F.
+
+Proposisi biasa dilambangkan dengan simbol berupa huruf seperti p, q, r, a, b.
+
+Pada bilangan, kita mengenal operator seperti +, -, x, yang jika dioperasikan pada bilangan akan menghasilkan bilangan lain. Pada proposisi juga terdapat beberapa operator yang jika dioperasikan/dievaluasi akan menghasilkan nilai kebenaran.
+
+----
+
+#### Bagian 1 : Operator not, and, or, xor
+
+Pada bagian ini kita akan mempelajari 4 operator utama. Selanjutnya, kita akan mempelajari Short Circuit dan Hukum de Morgan. Kemudian kita akhiri bagian ini dengan beberapa latihan soal.
+
+##### Operator not
+
+- Negasi atau operator not membalik sebuah nilai proposisi.
+- Biasa dilambangkan dengan simbol ~ atau ¬.
+
+```text
+not(True) = False
+not(False) = True
+```
+
+| p | ~p |
+|---|---|
+| T | F |
+| F | T |
+
+##### Operator and
+
+- `p and q` bernilai True jika p dan q keduanya bernilai True
+- Artinya, bernilai False jika minimal satu diantara dari p atau q bernilai False
+
+```text
+True and True = True
+True and False = False
+False and True = False
+False and False = False
+```
+
+| p | q | p ∧ q |
+|---|---|---|
+| T | T | T |
+| T | F | F |
+| F | T | F |
+| F | F | F |
+
+
+##### Operator or
+
+- `p or q` bernilai True jika minimal satu diantara p dan q bernilai True
+- Artinya, bernilai False jika p atau q keduanya bernilai False
+
+```text
+True and True = True
+True and False = True
+False and True = True
+False and False = False
+```
+
+| p | q | p ∨ q |
+|---|---|---|
+| T | T | T |
+| T | F | T |
+| F | T | T |
+| F | F | F |
+
+
+##### Operator xor
+
+- `p xor q` bernilai True jika tepat salah satu diantara p dan q bernilai True, dan yang lainnya False
+- Artinya, bernilai False jika nilainya sama
+
+```text
+True and True = True
+True and False = False
+False and True = False
+False and False = True
+```
+
+| p | q | p ⊕ q |
+|---|---|---|
+| T | T | F |
+| T | F | T |
+| F | T | T |
+| F | F | F |
+
+##### Short Circuit
+
+- Pada operator `and`, jika satu bagian bernilai False, maka hasil operasinya pasti False. Kita tidak perlu mengecek bagian keduanya.
+   ```text
+   a = False
+   a and ??? = False
+   ```
+
+- Pada operator `or`, jika satu bagian bernilai True, maka hasil operasinya pasti True. Kita tidak perlu mengecek bagian keduanya.
+
+   ```text
+   a = True
+   a or ??? = True
+   ```
+
+##### Hukum de Morgan
+
+- Negasi dari “p dan q” ekuivalen dengan “tidak p atau tidak q”
+  ```text
+  not(p and q) ≡ not(p) or not(q)
+  ```
+
+- Negasi dari “p atau q” ekuivalen dengan “tidak p dan tidak q”
+  ```text
+  not(p or q) ≡ not(p) and not(q)
+  ```
+
+Hukum ini juga dapat diperumum menjadi
+
+- ```text
+  not(x1 and x2 and... ) ≡ not(x1) or NOT(x2) or...
+  ```
+
+- ```text
+  not(x1 or x2 or... ) ≡ not(x1) and not(x2) and...
+  ```
+
+##### Latihan Bagian 1
+
+1. Diberikan nilai-nilai berikut  
+   A = True  
+   B = False  
+   C = True  
+   Apakah nilai dari :  
+   a. A and B = ?  
+   b. B or C = ?  
+   c. (A or C) and B = ?  
+   d. (A and C) xor not(B) = ?
+
+2. A, C, D, E masing-masing bernilai TRUE, sementara B dan F masing-masing bernilai FALSE. Dari kenyataan itu pernyataan mana dari berikut ini yang bernilai TRUE?  
+   A. ((A and B) or ((C and D) or E)) and F  
+   B. ((A or B) and ((C or D) and E)) or F  
+   C. ((A and B) and ((C or D) or E)) or F  
+   D. (A and B) and ((C and D) and E) and F  
+   E. ((A or B) or (C or D) or E) and F
+
+----
+
+#### Bagian 2 : Operator Implikasi dan Biimplikasi
+
+Pada bagian ini kita akan mempelajari 2 operator lain. Selanjutnya, kita akan mempelajari Kontraposisi. Kemudian kita akhiri bagian ini dengan beberapa latihan soal.
+
+##### Implikasi
+
+- Pernyataan berbentuk “jika p maka q”
+- Bernilai False hanya jika p True dan q False
+- Dilambangkan dengan p ⇒ q
+- Implikasi bisa dianggap sebagai kalimat “janji”, dimana p adalah kondisi dan q adalah konsekuensi.
+- Perhatikan bahwa : Sebuah janji disebut salah saat kondisi benar, tapi konsekuensinya salah
+
+| p | q | p ⇒ q |
+|---|---|---|
+| T | T | T |
+| T | F | F |
+| F | T | T |
+| F | F | T |
+
+Contoh :
+> "Jika seseorang tinggal di Bandung,  
+> maka ia tinggal di Indonesia"
+
+> "Jika x adalah bilangan prima, x > 2  
+> maka x adalah bilangan ganjil"
+
+> "Jika nilai anda 86  
+> maka anda lulus"
+
+##### Biimplikasi
+
+- Pernyataan berbentuk “p jika dan hanya jika q”
+- Bernilai benar jika nilai p dan q sama
+- Artinya, bernilai salah jika nilai p dan q berbeda
+- Dilambangkan dengan p ⇔ q
+
+
+| p | q | p ⇔ q |
+|---|---|---|
+| T | T | T |
+| T | F | F |
+| F | T | F |
+| F | F | T |
+
+Contoh :
+> "Seseorang ke sekolah memakai seragam SD  
+> jika dan hanya jika ia murid SD"
+
+
+> "x bilangan genap  
+> jika dan hanya jika x+1 ganjil"
+
+----
+
+#### Bagian 3 : Kaidah Inferensi
+
+Pada bagian sebelumnya kita telah mengenal berbagai operator proposisi. Pada bagian ini kita akan belajar bagaimana menarik kesimpulan dari beberapa proposisi. Aturan-aturan ini disebut kaidah inferensi. Terdapat 3 aturan yang sering dipakai : 
+
+##### Modus Ponens
+
+```text
+Pernyataan 1 : p ⇒ q
+Pernyataan 2 : p
+---------------------
+Kesimpulan   : q
+```
+
+Contoh :  
+▪ Jika Budi tinggal di Bandung, maka ia tinggal di negara Indonesia  
+▪ Budi tinggal di Bandung  
+Kesimpulan : Budi tinggal di negara Indonesia
+
+
+##### Modus Tollens
+
+```text
+Pernyataan 1 : p ⇒ q
+Pernyataan 2 : ~q
+---------------------
+Kesimpulan   : ~p
+```
+
+Contoh :  
+▪ Jika Budi tinggal di Bandung, maka ia tinggal di negara Indonesia  
+▪ Budi tidak tinggal di Indonesia  
+Kesimpulan : Pandu tidak tinggal di Bandung
+
+
+##### Dysunctive Syllogism
+
+```text
+Pernyataan 1 : p ∨ q
+Pernyataan 2 : ~p
+---------------------
+Kesimpulan   : q
+```
+
+Contoh :  
+▪ Andi atau Budi akan dikirim ke OSK  
+▪ Andi tidak dikirim ke OSK  
+Kesimpulan : Budi dikirim ke OSK
+
+##### Latihan Kaidah Inferensi
+
+1. Diketahui pernyataan di bawah ini pasti benar :  
+   • Jika hari panas, maka Ani memakai topi  
+   • Ani tidak memakai topi atau ia memakai payung  
+   • Ani tidak memakai payung  
+   Pernyataan lain yang pasti benar adalah?  
+   A. Hari panas  
+   B. Hari tidak panas  
+   C. Ani memakai topi  
+   D. Hari panas dan Ani memakai topi  
+   E. Hari tidak panas dan Ani memakai topi
+
+#### Penutup
+
+Berikut tadi adalah materi tentang logika proposisi. Silahkan lanjutkan ke latihan soal.

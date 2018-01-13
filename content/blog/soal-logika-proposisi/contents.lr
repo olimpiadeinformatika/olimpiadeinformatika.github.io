@@ -1,0 +1,141 @@
+_discoverable: yes
+---
+title: Soal Logika Proposisi
+---
+author: Mamat Rahmat
+---
+pub_date: 2018-01-02
+---
+categories: bundel-soal
+---
+body:
+
+1. Jika :  
+   A bernilai TRUE  
+   B bernilai FALSE  
+   C bernilai TRUE  
+   Maka pernyataan di bawah bernilai?  
+   `(A and (B or C)) and not(B xor (A and C)) and (C and (A or B))`
+
+1. Ekspresi `not((not(a))or(b))` sama dengan  
+   A. (a)and(not(b))  
+   B. ((a)or(not(b))  
+   C. (not(a))and(not(b))  
+   D. TRUE  
+   E. FALSE
+
+1. Dari nilai- nilai berikut, pernyataan mana yang bernilai salah jika C, D, E, F bernilai benar. A, B bernilai salah?  
+   A. ((A and B) or ((C and D) or E)) and F  
+   B. ((A or B) and ((C or D) and E)) or F  
+   C. ((A and B) and ((C or D) or E)) or F  
+   D. (A and B) and ((C and D) and E) and F  
+   E. ((A or B) or (C or D) or E) and F
+
+1. `not (not (P or not Q) or (not P and not Q)) or (P or not Q)`  
+   Ekspresi di atas akan bernilai False jika nilai P dan Q adalah ...  
+   A. P = True, Q = True  
+   B. P = True, Q = False  
+   C. P = False, Q = True  
+   D. P = False, Q = False  
+   E. Tidak memungkinkan ekspresi bernilai False.
+
+1. Ekspresi `not((P and Q) or (not P or (P and not Q)))` bernilai  True jika:  
+   a. P = True, Q = True  
+   b. P = True, Q = False  
+   c. P = False, Q = True  
+   d. P = False, Q =  False  
+   e. Berapapun nilai P dan Q, ekspresi tersebut tidak mungkin bernilai true
+
+1. Manakah  nilai - nilai  A, B, C, D, E yang  dapat  memenuhi pernyataan  `(A and B and C and D) or not E`  bernilai false ?  
+   a. A  = true, B = true, C = true, D = true, E = true  
+   b. A = false, B = false, C = false, D = false, E = false  
+   c. A = true, B = false, C = true, D = false, E = true  
+   d. A = false, B = true, C = false, D = true, E = false  
+   e. A = true, B = true, C = true, D = true, E = false 
+
+1. Jika A bernilai True, B bernilai False, C bernilai True, D bernilai False, E bernilai False, dan F bernilai True. Maka Ekspresi Logika yang nilainya sama dengan `(A and (((B or C) and (D and E)) and F))` adalah...  
+   A. (A and B) or ((C or D) and (E or F))  
+   B. ((A or (B or C)) or (D or E) or F)  
+   C. ((A and B) or ((C and (D and E)) and F))  
+   D. ((A or B) or ((C and D) and (E or F)))  
+   E. (((A and B) or C) or ((D or E) and F))
+
+1. Agar pernyataan di bawah bernilai TRUE, maka nilai A, B, C adalah?  
+  `[(A or B) and (B or C)] and [not(B or C) or not(A)] and not(C)`
+
+1. Diketahui empat premis (asumsi) sebagai berikut  
+   `P ∧ ~Q -> R ∧ S`  
+   `K -> G`  
+   `~P -> K`  
+   `L -> ~Q`  
+   Tentukan nilai dari G dan L agar R dipastikan benar
+
+1. Perhatikan pernyataan berikut:  
+   • Jika hari hujan, maka Budi memakai payung.  
+   • Budi memakai topi atau tidak memakai payung.  
+   Ternyata, hari ini Budi tidak memakai topi. Kesimpulan yang sah adalah:  
+   a. Hari ini hujan  
+   b. Hari ini tidak hujan  
+   c. Budi memakai payung  
+   d. Hari ini hujan dan Budi memakai payung  
+   e. Hari ini tidak hujan dan Budi memakai payung
+
+1. Diberikan beberapa premis sebagai berikut:  
+• Jika Rivin makan, maka Rlvln kenyang.  
+• Jika Rivin mandi, maka Rivin tidak kenyang.  
+• Jika Rivin tidak kenyang, maka Rivin akan cepat lapar.  
+Jika diketahui kondisi awal bahwa 'Rivin tidak cepat lapar, mana sajakah yang dapat dipastikan dari premis berikut ini (setiap premis diberi nomer)?  
+   1) Rivin makan  
+   2) Rivin tidak makan  
+   3) Rivin mandi  
+   4) Rivin tidak mandi  
+   5) Rivin kenyang  
+   6) Rivin tidak kenyang  
+
+1. Heru selalu berkata jujur pada hari Senin, Selasa, dan Rabu. Heru selalu berkata bohong pada hari Kamis, Jumat, dan Sabtu. Pada hari Minggu, ia bisa berkata jujur atau bohong. Pada suatu hari, teman Heru, Kudo ingin menanyakan suatu informasi yang penting pada Heru. Sayangnya, Kudo lupa melihat kalender sehingga lupa tanggal dan hari pada saat itu. Tentu saja Kudo yang cerdas tidak langsung menanyakan pertanyaannya pada Heru. Setelah Kudo menanyakan beberapa pertanyaan, Heru menjawab, “Hari ini saya sedang berkata jujur, begitu pula esok hari. Hari ini bukan hari Kamis maupun Senin. Kemarin saya berkata bohong. Kemarin adalah hari Minggu“. Pada hari apakah Kudo bertemu Heru?
+
+1. Seorang detektif sedang menangani sebuah kasus kriminal. Ada 4 orang tersangka berinisial G, O, L, D. Dari hasil interogasi, detektif tersebut mendapatkan sejumlah fakta, yaitu :  
+   • Jika G berkata jujur, maka O berkata jujur.  
+   • Jika L berkata bohong, maka D berkata jujur.  
+   • Salah satu dari O dan L berkata jujur.  
+   • O berkata jujur jika dan hanya jika D berkata bohong.  
+   Dari sejumlah fakta di atas, siapa yang berkata jujur?  
+   A. L dan D  
+   B. O dan L  
+   C. G dan O  
+   D. D dan G  
+   E. Tidak dapat ditentukan.
+
+1. Terdapat lima orang sahabat bernama Ari, Heru, Kemal, Randi, dan Vino. Beberapa dari mereka akan dipilih mewakili sekolah untuk mengikuti Olimpiade Sains Tingkat Kota. Namun kepala sekolah tidak memberitahukan langsung nama-namanya, akan tetapi dia hanya memberikan teka-teki berikut :  
+   • Kemal atau Heru, atau keduanya pasti terpilih  
+   • Salah satu dari Randi dan Vino, tetapi tidak keduanya pasti terpilih  
+   • Jika Ari dipilih, maka Randi juga dipilih  
+   • Vino dipilih jika dan hanya jika Kemal dipilih  
+   • Jika Heru dipilih, maka Ari dan Kemal juga dipilih  
+   Ada berapa orang yang terpilih?
+
+1. Pak Dengklek sedang mengamati 3 orang pekerja berinisial A, B, C. Dari hasil pengamatan, Pak Dengklek mendapatkan bahwa:  
+   • Jika C tidak memiliki gaji terbesar, maka A yang memiliki gaji terbesar.  
+   • Jika A tidak memiliki gaji terkecil, maka B yang memiliki gaji terbesar.  
+   Berdasarkan hal itu, bagaimana urutan gaji pekerja mulai dari yang terbesar?  
+   a. A,B,C  
+   b. B,A,C  
+   c. C,A,B  
+   d. C,B,A  
+   e. Tidak dapat ditentukan.
+
+1. Kali ini Pak Dengklek mengajak bermain tebak angka. Dia memikirkan sebuah bilangan lalu mengatakan :  
+   • Bilangan tersebut berkisar antara 1 sampai 30  
+   • Jika bilangan tersebut adalah bilangan kelipatan 2, maka bilangan itu ditambah 1 akan habis dibagi tiga  
+   • Bilangan tersebut adalah bilangan kelipatan 5, jika dan hanya jika bilangan itu ditambah 1 akan habis dibagi dua  
+   Anda tidak diminta untuk menebak berapa bilangannya, tapi Pak Dengklek bertanya ada berapa bilangan yang mungkin menjadi bilangan yang dipikirkan olehnya?
+
+1. Pak Dengklek memiliki 1000 buah kartu. Setiap kartu terdiri dari dua sisi yang tampak identik. Pada kedua sisi setiap kartu, Pak Dengklek dapat memilih untuk menuliskan sebuah angka, atau tidak menuliskan apa-apa. Seribu buah kartu tersebut diletakkan oleh Pak Dengklek di atas meja, sehingga Anda dapat melihat bahwa pada sisi yang terbuka, semua kartu telah ditulisi angka yang berbeda, mulai dari 1 hingga 1000. Anda tidak dapat melihat sisi yang tertutup. Pak Dengklek mengatakan bahwa: “Jika pada satu sisi kartu tertulis bilangan ganjil, maka pada sisi lainnya pasti tertulis bilangan yang habis dibagi 3, DAN jika satu sisi sebuah kartu tidak terdapat tulisan apa-apa (kosong), maka pada sisi lainnya pasti tertulis bilangan yang habis dibagi 5”. Berapa minimal kartu yang harus Anda balik untuk mengetahui apakah Pak Dengklek berkata benar atau tidak?
+
+1. Diberikan 2 pernyataan logika berikut :  
+   `p <=>   (((q ^ (p v q)) -> ((q v r) <=> (q v ~r))) v p)`  
+   `q <=>   ((q ^ (r v q)) -> ((p xor q xor r) -> (q ^ (q v ~r))))`  
+   Ada berapa kombinasi (p, q, r) sehingga kedua pernyataan logika di atas benar?
+
+1. Jika `s <=> ((p -> (q -> (r -> s))) -> (s -> (r -> (q -> p))))` maka ada berapa kombinasi (p,r,q,s) sehingga ketiga pernyataan logika tersebut terpenuhi?
+
