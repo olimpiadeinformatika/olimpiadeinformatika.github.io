@@ -70,10 +70,10 @@ False and False = False
 - Artinya, bernilai False jika p atau q keduanya bernilai False
 
 ```text
-True and True = True
-True and False = True
-False and True = True
-False and False = False
+True or True = True
+True or False = True
+False or True = True
+False or False = False
 ```
 
 | p | q | p ∨ q |
