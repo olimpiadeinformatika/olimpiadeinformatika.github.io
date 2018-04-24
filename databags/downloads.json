@@ -232,12 +232,16 @@
 		},
 		{
 			"title": "Programming Competition Season (PCS) UGM",
-			"header" : ["Penyisihan", "Final"],
+			"header" : ["Penyisihan", "Semifinal", "Final"],
 			"data" : [
 				[
 					{
 						"name": "PCS UGM 2008 Penyisihan",
 						"filename": "PCS-UGM-2008-penyisihan.pdf"
+					},
+					{
+						"name": "",
+						"filename": ""
 					},
 					{
 						"name": "PCS UGM 2008 Final",
@@ -251,6 +255,10 @@
 						"filename": "PCS-UGM-2009-penyisihan.pdf"
 					},
 					{
+						"name": "",
+						"filename": ""
+					},
+					{
 						"name": "PCS UGM 2009 Final",
 						"filename": "PCS-UGM-2009-final.pdf"
 					}
@@ -260,6 +268,10 @@
 					{
 						"name": "PCS UGM 2010 Penyisihan",
 						"filename": "PCS-UGM-2010-penyisihan.pdf"
+					},
+					{
+						"name": "",
+						"filename": ""
 					},
 					{
 						"name": "PCS UGM 2010 Final",
@@ -273,12 +285,20 @@
 						"filename": "PCS-UGM-2011-penyisihan.pdf"
 					},
 					{
+						"name": "",
+						"filename": ""
+					},
+					{
 						"name": "PCS UGM 2011 Final",
 						"filename": "PCS-UGM-2011-final.pdf"
 					}
 					
 				],
 				[
+					{
+						"name": "",
+						"filename": ""
+					},
 					{
 						"name": "",
 						"filename": ""
@@ -295,6 +315,10 @@
 						"filename": "PCS-UGM-2014-penyisihan.pdf"
 					},
 					{
+						"name": "",
+						"filename": ""
+					},
+					{
 						"name": "PCS UGM 2014 Final",
 						"filename": "PCS-UGM-2014-final.pdf"
 					}
@@ -306,10 +330,28 @@
 						"filename": ""
 					},
 					{
+						"name": "",
+						"filename": ""
+					},
+					{
 						"name": "PCS UGM 2015 Final",
 						"filename": "PCS-UGM-2015-final.pdf"
 					}
 					
+				],
+				[
+					{
+						"name": "PCS UGM 2017 Penyisihan",
+						"filename": "PCS-UGM-2017-penyisihan.pdf"
+					},
+					{
+						"name": "PCS UGM 2017 Semifinal",
+						"filename": "PCS-UGM-2017-semifinal.pdf"
+					},
+					{
+						"name": "PCS UGM 2017 Final",
+						"filename": "PCS-UGM-2017-final.pdf"
+					}
 				]
 			]
 		},
