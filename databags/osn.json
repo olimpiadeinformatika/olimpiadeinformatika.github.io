@@ -121,6 +121,16 @@
 				"name": "Medalis OSN 2017",
 				"filename": "medalis-OSN-2017.pdf"
 			}
+		],
+		[
+			{
+				"name": "Peserta OSN 2018",
+				"filename": "peserta-OSN-2018.pdf"
+			},
+			{
+				"name": "",
+				"filename": ""
+			}
 		]
 	]
 }
