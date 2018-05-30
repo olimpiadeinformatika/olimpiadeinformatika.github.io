@@ -227,6 +227,20 @@
 						"name": "OSN 2017",
 						"filename": "OSN-2017.pdf"
 					}
+				],
+				[
+					{
+						"name": "OSK 2017",
+						"filename": "OSK-2017.pdf"
+					},
+					{
+						"name": "OSP 2017",
+						"filename": "OSP-2017.pdf"
+					},
+					{
+						"name": "",
+						"filename": ""
+					}
 				]
 			]
 		},
